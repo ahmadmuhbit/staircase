@@ -20,32 +20,3 @@ function draw($size)
 	}
 }
 draw(6);
-
-
-/*function draw($size)
-{
-	$pengurang = $size; $text="";
-	for($x = 1; $x<=$size; $x++)
-	{
-
-
-		for($i = 1; $i <=$size; $i++)
-		{
-			if($i <$pengurang){
-				$text .= "&nbsp; ";
-			}
-			else
-			{
-				$text .= "#";
-			}
-			
-		}
-		$text .= "<br>";
-		$pengurang--; 
-	}
-	return $text;
-		
-}
-echo draw(6);
-
-?>*/
